@@ -1,18 +1,18 @@
 function akanFunction() {
-    var ay, bm, dm;
+    var ay, bm, cd;
     var male, female;
   
-    yy = parseInt(document.getElementById('year').value);
+    ay = parseInt(document.getElementById('year').value);
     bm = parseInt(document.getElementById('month').value);
-    dm = parseInt(document.getElementById('dayOfMonth').value);
+    cd = parseInt(document.getElementById('dayOfMonth').value);
   
     male = document.getElementById('rad1').checked;
     female = document.getElementById('rad2').checked;
   
     var year, month, day;
-    year = parseInt(yy);
+    year = parseInt(ay);
     month = parseInt(bm);
-    day = parseInt(dm);
+    day = parseInt(cd);
   
   
     var century = parseInt((year - 1) / 100 + 1);
